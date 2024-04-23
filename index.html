@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Place</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!--* Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!--* Header Section -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="resimler/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="bi bi-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="bi bi-basket"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+            <i class="bi bi-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="bi bi-x-lg"></i>
+                <img src="resimler/menu-1.png" alt="menu1">
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="bi bi-x-lg"></i>
+                <img src="resimler/menu-2.png" alt="menu1">
+                <div class="content">
+                    <h3>cart item 2</h3>
+                    <div class="price">$12.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="bi bi-x-lg"></i>
+                <img src="resimler/menu-3.png" alt="menu1">
+                <div class="content">
+                    <h3>cart item 3</h3>
+                    <div class="price">$13.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="bi bi-x-lg"></i>
+                <img src="resimler/menu-4.png" alt="menu1">
+                <div class="content">
+                    <h3>cart item 4</h3>
+                    <div class="price">$14.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Check Out Now</a>
+        </div>
+    </header>
+    <!--* Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>EXPRESS HOME DELIVERY</h3>
+            <p>Lorem ipsum dolor sit amet <b>fener bizi bitirdi.</b> Totam eligendi est aut qui reiciendis illo, omnis
+                aliquid
+                vero cumque maiores nisi labore quos, facilis modi sint voluptatibus! Vitae, quisquam alias!</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+    <!--* Menu Section -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="resimler/menu-1.png" alt="menu1">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <div class="price">$104.99 <span>119.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="resimler/menu-2.png" alt="menu1">
+                    <span class="menu-category">BURGER</span>
+                    <h3>5 Mini Burgers</h3>
+                    <div class="price">$99.99 <span>109.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="resimler/menu-3.png" alt="menu1">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>2 Mixed Pizzas</h3>
+                    <div class="price">$49.99 <span>59.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="resimler/menu-4.png" alt="menu1">
+                    <span class="menu-category">BURGER</span>
+                    <h3>3 Meatball Burgers</h3>
+                    <div class="price">$79.99 <span>99.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* Products Section -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Bacon Burger</a>
+                </div>
+                <div class="image">
+                    <img src="resimler/product-1.png" alt="product1">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$6.00</b>
+                        <span class="amount">110 gr / 300 cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="bi bi-plus-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">DARK BURGER</span>
+                    <a href="#" class="name">Dark + Cheese Burger</a>
+                </div>
+                <div class="image">
+                    <img src="resimler/product-2.png" alt="product1">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.00</b>
+                        <span class="amount">220 gr / 600 cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="bi bi-plus-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box dark-bg">
+                <div class="box-head">
+                    <span class="title">DOUBLE DARK BURGER</span>
+                    <a href="#" class="name">Dark + Cheese + Double Burger</a>
+                </div>
+                <div class="image">
+                    <img src="resimler/dark-product.jpg" alt="product1">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$24.00</b>
+                        <span class="amount">440 gr / 1200 cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="bi bi-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* About Us Section -->
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="resimler/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>What Is the Sectet Recipe Of Our Burgers ?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci animi earum ad sunt quidem
+                    omnis aliquid necessitatibus. Architecto, quis!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem minus pariatur est ratione!
+                    Numquam sapiente maxime ad architecto dolor nemo veritatis corrupti est tempora molestiae!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti maxime porro voluptate, sunt
+                    inventore incidunt?</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!--* Review Section  -->
+    <section class="review" id="review">
+        <h1 class="heading">customers' <span>reviews</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="resimler/quote.png" alt="quote">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure labore similique saepe culpa officiis
+                    voluptate nihil tempore.</p>
+                <img src="resimler/avatar-1.png" alt="avatar1" class="user">
+                <h3>Hatice Sakarya</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="resimler/quote.png" alt="quote">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nobis exercitationem facere, sequi
+                    quibusdam explicabo.</p>
+                <img src="resimler/avatar-2.png" alt="avatar1" class="user">
+                <h3>Hüseyin Çakmak</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="resimler/quote.png" alt="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aliquid ab officiis quod nemo, in
+                    cum facilis non officia nulla!</p>
+                <img src="resimler/avatar-3.png" alt="avatar1" class="user">
+                <h3>Göksu Erdoğan</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* Contact Section -->
+    <section class="contacts" id="contacts">
+        <h1 class="heading">contact <span>us</span></h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/d/embed?mid=1O2maLOw-ZxMLeCkf1_TczXbxB-E&hl=en_US&ehbc=2E312F"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="bi bi-person-fill"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="bi bi-envelope-fill"></i>
+                    <input type="email" placeholder="mail">
+                </div>
+                <div class="inputBox">
+                    <i class="bi bi-telephone-fill"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" class="btn" value="Contact Now">
+            </form>
+        </div>
+    </section>
+    <!--* Blog Section -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="resimler/blog-1.jpg" alt="blog1">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make a burger ?</a>
+                    <span>by Kerem Sakarya / 23st May 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odit sit rem, omnis dicta magnam!
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="resimler/blog-2.jpg" alt="blog1">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make a small burger ?</a>
+                    <span>by Efe Sakarya / 18st May 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi sit rem similique asperiores
+                        molestiae dolorum debitis harum fugiat eaque aliquam?
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="resimler/blog-3.jpg" alt="blog1">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by Mert Kılıç / 10st May 2024</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores sunt fuga cupiditate
+                        accusamus voluptas deserunt.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* Footer Section -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="bi bi-facebook"></a>
+            <a href="#" class="bi bi-twitter-x"></a>
+            <a href="#" class="bi bi-instagram"></a>
+            <a href="#" class="bi bi-linkedin"></a>
+            <a href="#" class="bi bi-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contacts</a>
+            <a href="#">Blogs</a>
+        </div>
+        <div class="credit">
+            created by <span>Kerem Sakarya</span> | all rights reserved
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
